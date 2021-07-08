@@ -34,13 +34,24 @@ Useful commands for common git tasks.
 | `git remote -v`                                       | show named remote repositories               |
 | `git remote add origin <remote_repository_url>`       | add empty remote repository                  |
 | `git clone <remote_repository_url>`                   | clone and add remote repository              |
+| `git fetch <remote_repository_url>`                   | fetch remote repository                      |
+| `git fetch <remote_repository_url> <branch_name>`     | fetch remote repository with specific branch |
+| `git fetch -all`                                      | fetch all remote branches                    |
+| `git fetch origin <branch_name>`                      | fetch specific branch from remote repository |
+| `git fetch`                                           | fetch changes from remote repository         |
 | `git pull origin <branch_name>`                       | pull changes from specific remote branch     |
 | `git pull`                                            | pull changes from remote repository          |
 | `git push origin <branch_name>`                       | push branch to remote branch                 |
+| `git push origin <tag_name>`                          | push particular tag to remote repository     |
 | `git push -u origin <branch_name>`                    | push changes to remote branch and remember   |
 | `git push origin --delete <branch_name>`              | delete branch from remote repository         |
 | `git push`                                            | push changes to remembered remote branch     |
 | `git push —all`                                       | push all local branches to remote repository |
+| `git tag`                                             | list all tags                                |
+| `git tag <tag_name>`                                  | create new lightweight tag                   |
+| `git tag -s <tag_name>`                               | create new signed lightweight tag            |
+| `git tag -a <tag_name> -m "<message>"`                | create new annotated tag                     |
+| `git tag -a <tag_name> -s -m "<message>"`             | create new signed annotated tag              |
 
 ### gpg commands
 
@@ -54,3 +65,4 @@ Useful commands for common git tasks.
 | `gpg --export-ownertrust > user-ownertrust-db.txt`               | export ownertrust db file               |
 | `gpg --import user-secret-key.asc`                               | import private key file                 |
 | `gpg --import-ownertrust user-ownertrust-db.txt`                 | import ownertrust db file               |
+| `gpg --edit-key <key_id>`                                        | Edit gpg key (2.2.17)                   |
