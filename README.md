@@ -16,8 +16,9 @@ Useful commands for common git tasks.
 | `git add .`                                           | add all files not staged                     |
 | `git add <file_name>`                                 | stage specific file                          |
 | `git add <directory_name>`                            | stage entire directory                       |
-| `git commit -m "<message>"`                           | commit changes                               |
-| `git commit -s -m "<message>"`                        | sign and commit changes                      |
+| `git commit`                                          | commit changes                               |
+| `git commit -m "<message>"`                           | commit changes with message                  |
+| `git commit -s -m "<message>"`                        | sign and commit changes with message         |
 | `git status`                                          | check repository status                      |
 | `git status -s`                                       | show brief repository status                 |
 | `git branch -a`                                       | show all remote or local branches            |
