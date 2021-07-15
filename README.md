@@ -26,6 +26,7 @@ Useful commands for common git tasks.
 | `git branch -m <branch_name> <new_branch_name>`       | rename a local branch                        |
 | `git checkout <branch_name_or_commit_id>`             | checkout existing branch or commit           |
 | `git checkout -b <new_branch_name>`                   | checkout and create new branch               |
+| `git revert <commit_id>`                              | undo commit changes                          |
 | `git log`                                             | show changes                                 |
 | `git log --oneline`                                   | show brief changes                           |
 | `git log --summary`                                   | show detailed changes                        |
