@@ -24,7 +24,8 @@ Useful commands for common git tasks.
 | `git branch -a`                                       | show all remote or local branches            |
 | `git branch <branch_name>`                            | create new branch                            |
 | `git branch -d <branch_name>`                         | delete branch                                |
-| `git branch -m <branch_name> <new_branch_name>`       | rename a local branch                        |
+| `git branch -m <new_branch_name>`                     | rename current branch                        |
+| `git branch -m <branch_name> <new_branch_name>`       | rename specific branch                       |
 | `git checkout <branch_name_or_commit_id>`             | checkout existing branch or commit           |
 | `git checkout -b <new_branch_name>`                   | checkout and create new branch               |
 | `git revert <commit_id>`                              | undo commit changes                          |
