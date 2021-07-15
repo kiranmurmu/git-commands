@@ -51,7 +51,7 @@ Useful commands for common git tasks.
 | `git push -u origin <branch_name>`                    | push changes to remote branch and remember   |
 | `git push origin --delete <branch_name>`              | delete branch from remote repository         |
 | `git push`                                            | push changes to remembered remote branch     |
-| `git push —all`                                       | push all local branches to remote repository |
+| `git push —-all`                                      | push all local branches to remote repository |
 | `git tag`                                             | list all tags                                |
 | `git tag <tag_name>`                                  | create new lightweight tag                   |
 | `git tag -s <tag_name>`                               | create new signed lightweight tag            |
