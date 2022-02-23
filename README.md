@@ -50,9 +50,12 @@ Useful commands for common git tasks.
 | `git push origin --delete <branch_name>`             | delete branch from remote repository           |
 | `git push`                                           | push changes to remembered remote branch       |
 | `git push —-all`                                     | push all local branches to remote repository   |
+| `git push —-tags`                                    | push all tags to remote repository             |
+| `git push --delete origin <tag_name>`                | delete tag from remote repository              |
 | `git tag`                                            | list all tags                                  |
 | `git tag <tag_name>`                                 | create new lightweight tag                     |
 | `git tag -s <tag_name>`                              | create new signed lightweight tag              |
+| `git tag -d <tag_name>`                              | delete tag                                     |
 | `git tag -a <tag_name> -m "<message>"`               | create new annotated tag                       |
 | `git tag -a <tag_name> -s -m "<message>"`            | create new signed annotated tag                |
 
