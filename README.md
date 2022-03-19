@@ -53,6 +53,7 @@ Useful commands for common git tasks.
 | `git push --all`                                     | push all local branches to remote repository   |
 | `git push --tags`                                    | push all tags to remote repository             |
 | `git push --delete origin <tag_name>`                | delete tag from remote repository              |
+| `git push --force origin <branch_name>`              | Force push changes to remote repository        |
 | `git tag`                                            | list all tags                                  |
 | `git tag <tag_name>`                                 | create new lightweight tag                     |
 | `git tag -s <tag_name>`                              | create new signed lightweight tag              |
