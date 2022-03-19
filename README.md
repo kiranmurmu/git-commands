@@ -19,6 +19,7 @@ Useful commands for common git tasks.
 | `git commit`                                         | commit changes                                 |
 | `git commit -m "<message>"`                          | commit changes with message                    |
 | `git commit -s -m "<message>"`                       | sign and commit changes with message           |
+| `git commit --amend -m "<new_message>"`              | change the most recent commit message          |
 | `git status`                                         | check repository status                        |
 | `git status -s`                                      | show brief repository status                   |
 | `git branch -a`                                      | show all remote or local branches              |
