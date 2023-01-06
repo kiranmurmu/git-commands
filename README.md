@@ -61,6 +61,16 @@ Useful commands for common git tasks.
 | `git tag -a <tag_name> -m "<message>"`               | create new annotated tag                       |
 | `git tag -a <tag_name> -s -m "<message>"`            | create new signed annotated tag                |
 
+### Undo a commit & redo
+
+| Steps                                          | Description                                                     |
+| ---------------------------------------------- | --------------------------------------------------------------- |
+| `git commit -m "Something terribly misguided"` | Your Accident                                                   |
+| `git reset HEAD~`                              | Undo your last commit while leaving your working tree untouched |
+| [ edit files as necessary ]                    | Make corrections to working tree files                          |
+| `git add .`                                    | Add anything that you want to include in your new commit        |
+| `git commit -c ORIG_HEAD`                      | Commit the changes, reusing the old commit message              |
+
 ### gpg commands
 
 | Command                                                          | Description                             |
